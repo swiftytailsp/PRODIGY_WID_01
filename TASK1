@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .about img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Projects Section */
+        .projects {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+
+        .projects h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .projects .project {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+        }
+
+        .projects .project img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .projects .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .projects .project p {
+            font-size: 1rem;
+            color: #777;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .projects .project a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .projects .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #333;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact .email {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .projects .project {
+                flex-direction: row;
+                width: 100%;
+                max-width: 600px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .about h2 {
+                font-size: 2rem;
+            }
+
+            .projects h2 {
+                font-size: 2rem;
+            }
+
+            .projects .project h3 {
+                font-size: 1.3rem;
+            }
+
+            .contact h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>S.Priyanka Chowdary</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>PHARMACY MANAGEMENT SYSTEM</h3>
+            <p>A Pharmacy Management System is a software solution designed to streamline and automate the management of pharmaceutical operations, including inventory tracking, prescription processing, and sales transactions.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>COUNTDOWN TIMER USING PYTHON</h3>
+            <p>A countdown timer in Python is a program that counts down from a specified time to zero, displaying the remaining time at regular intervals.</p>
+            <a href="#">View Project</a>
+        </div>
+
+       
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch with me, feel free to send me an email or connect via social media.</p>
+        <div class="email">
+            <p>Email: priyankachowdary205@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio | Designed by Me</p>
+    </footer>
+
+</body>
+</html>
